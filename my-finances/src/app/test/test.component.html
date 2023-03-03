@@ -1,6 +1,8 @@
 <div ng-app>
-    <div *ngFor="let list of myList" [class]="{'item2' : list.status, 'item' : list.status === false }"
-        (click)="list.status=!list.status" ng-init="TutorialName='Angular JS'">
+    <div 
+        *ngFor="let list of myList" 
+        [class]="{'item2' : list.status, 'item' : list.status === false }"
+        (click)="list.status=!list.status">
         <p class="text">{{list.name }}</p>
         <p class="text">{{list.price | number: '0.2-2' }} EUR
         </p>
