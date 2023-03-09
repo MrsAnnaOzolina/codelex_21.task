@@ -1,4 +1,4 @@
-# Express Typescript Boilerplate
+# My expenses app
 To start developing run  `ng serve --open`
 
 Here is preview: 
